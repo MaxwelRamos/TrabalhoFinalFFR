@@ -15,8 +15,8 @@ export const useValidacoes = (props) => {
                 mensagem = 'Nenhum contato foi adicionado.';
             else if (contatosResult.mensagem.trim() == '')
                 mensagem = 'Preencha a mensagem.';
-            else if (contatosResult.chaveApi.trim() == '')
-                mensagem = 'Preencha a chave API.';
+            // else if (contatosResult.chaveApi.trim() == '')
+            //     mensagem = 'Preencha a chave API.';
         }
 
     return mensagem;
