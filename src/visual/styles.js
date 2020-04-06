@@ -37,7 +37,6 @@ export const Aside = styled.aside`
 box-sizing: border-box;
 background-color: #4169E1;
 width: 100%;
-// padding: 15px;
 text-align: center;
 float: left;
 `
@@ -53,7 +52,7 @@ export const Input = styled.input`
   background: papayawhip;
   border: none;
   border-radius: 3px;
-  width: 295px;
+  font-size: 15px;
 `;
 
 export const Textarea = styled.textarea`
@@ -73,8 +72,6 @@ export const Button = styled.button`
   padding: 0.25em 1em;
   border: 2px solid palevioletred;
   border-radius: 3px;
-  width: 250px;
-
 `;
 
 export const Td = styled.td`

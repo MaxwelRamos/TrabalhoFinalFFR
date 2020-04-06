@@ -4,7 +4,6 @@ export class ContatoService {
     (async function () {
 
       const TotalVoice = require("totalvoice-node");
-      // const client = new TotalVoice("b220e79f3ffcda3c726fc4d7049eddfd");
       const client = new TotalVoice(contatosResult.chaveApi);
 
       for (const c of contatosResult.contato) {

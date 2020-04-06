@@ -11,7 +11,7 @@ export const DeixeSuaMensagem = () => {
 
   return (
     <div>
-      <Textarea rows="15" cols="40" value={contatosResult.mensagem} onChange={event => dispatch(setMensagem({ mensagem: event.target.value }))} placeholder="Ex: Todos contra o corona vírus, a vida em primeiro lugar! Proteja-se, fique em casa." required="required" />
+      <Textarea rows="15"  value={contatosResult.mensagem} onChange={event => dispatch(setMensagem({ mensagem: event.target.value }))} placeholder="Ex: Todos contra o corona vírus, a vida em primeiro lugar! Proteja-se, fique em casa." required="required" />
     </div>
   );
 };
