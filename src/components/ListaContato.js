@@ -66,7 +66,7 @@ export const ListaContato = () => {
             </p>
           </Aside>
         </Section>
-        <Footer>© copyright Maxwel Ramos Pereira - Pós Graduação Desenvolvimento Web full stack</Footer>
+        <Footer>© copyright Maxwel Ramos Pereira - Pós Graduação Desenvolvimento Web Full Stack</Footer>
       </body>
     </div>
   );
