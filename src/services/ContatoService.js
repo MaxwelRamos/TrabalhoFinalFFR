@@ -7,13 +7,6 @@ export class ContatoService {
       const client = new TotalVoice(contatosResult.chaveApi);
 
       for (const c of contatosResult.contato) {
-        alert(c.name);
-        alert(c.telefone);
-        alert(contatosResult.mensagem);
-        alert(contatosResult.chaveApi);
-        
-
-
         const telDestino =
         {
           nome: c.name,
