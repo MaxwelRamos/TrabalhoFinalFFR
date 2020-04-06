@@ -24,7 +24,7 @@ export const ListaContato = () => {
   return (
     <div>
       <body>
-        <Head>CoronaAPP - PUC MINAS 2020</Head>
+        <Head>CoronaAviso - PUC MINAS 2020</Head>
         <Section>
           <Article>
             <h2>Contatos registrados</h2>
@@ -49,7 +49,7 @@ export const ListaContato = () => {
             <br /><br />
             <DeixeSuaMensagem />
             <p></p>
-            <ChaveApi />
+            {/* <ChaveApi /> */}
             <p></p>
             <TipoVoz />
             <br></br>

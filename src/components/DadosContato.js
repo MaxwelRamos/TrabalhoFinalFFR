@@ -11,7 +11,7 @@ export const DadosContato = () => {
   return (
     <div>
       <body>
-        <Head>CoronaAPP - PUC MINAS 2020</Head>
+        <Head>CoronaAviso - PUC MINAS 2020</Head>
         <Section>
           <Article>
             <h2>Dados de Contato</h2>
