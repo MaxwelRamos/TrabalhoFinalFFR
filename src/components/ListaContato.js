@@ -3,8 +3,16 @@ import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { remContato } from '../actions/contatoAction';
-import { Head, Section, Article, Aside, Footer, Td, Table, Cab } from '../visual/styles'
 
+//visual
+import { Head } from '../visual/head'
+import { Section } from '../visual/section'
+import { Article } from '../visual/article'
+import { Aside } from '../visual/aside'
+import { Footer } from '../visual/footer'
+import { Td } from '../visual/td'
+import { Table } from '../visual/table'
+import { Cab } from '../visual/cab'
 
 //Componentes
 import { RemoverTodosLista } from "./RemoverTodosLista";
@@ -49,7 +57,7 @@ export const ListaContato = () => {
             <br /><br />
             <DeixeSuaMensagem />
             <p></p>
-            {/* <ChaveApi /> */}
+            <ChaveApi />
             <p></p>
             <TipoVoz />
             <br></br>

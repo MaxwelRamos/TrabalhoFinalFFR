@@ -1,10 +1,10 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import { ContatoService } from "../services/ContatoService";
-import { Button } from '../visual/styles'
+import { Button } from '../visual/button'
 
 //hooks custom
-import useValidacoes from '../useValidacoes';
+import useValidacoes from '../hooksCustom/useValidacoes';
 
 export const EfetuarLigacao = (props) => {
 

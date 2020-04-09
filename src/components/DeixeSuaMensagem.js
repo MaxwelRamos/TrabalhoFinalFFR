@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import { setMensagem } from '../actions/contatoAction';
 import { useSelector } from "react-redux";
-import { Textarea } from '../visual/styles'
+import { Textarea } from '../visual/txtarea'
 
 
 export const DeixeSuaMensagem = () => {

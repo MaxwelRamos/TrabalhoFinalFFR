@@ -1,8 +1,14 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import { AdicionarContato } from "./AdicionarContato";
-import { Head, Section, Article, Aside, Footer, Input } from '../visual/styles'
 
+//visual
+import { Head } from '../visual/head'
+import { Section } from '../visual/section'
+import { Article } from '../visual/article'
+import { Aside } from '../visual/aside'
+import { Footer } from '../visual/footer'
+import { Input } from '../visual/input'
 
 export const DadosContato = () => {
   const [name, setName] = useState("");

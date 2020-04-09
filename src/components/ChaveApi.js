@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import { setChaveAPI } from '../actions/contatoAction';
 import { useSelector } from "react-redux";
-import { Input } from '../visual/styles'
+import { Input } from '../visual/input'
 
 export const ChaveApi = () => {
   const dispatch = useDispatch();

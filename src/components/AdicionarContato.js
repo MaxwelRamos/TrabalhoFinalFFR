@@ -1,9 +1,9 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { addContato } from '../actions/contatoAction';
-import { Button } from '../visual/styles'
+import { Button } from '../visual/button'
 
-import useValidacoes from '../useValidacoes';
+import useValidacoes from '../hooksCustom/useValidacoes';
 
 export const AdicionarContato = (props) => {
 

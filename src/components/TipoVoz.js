@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { setTipoVoz } from '../actions/contatoAction';
-import { Select } from '../visual/styles'
+import { Select } from '../visual/select'
 
 export const TipoVoz = () => {
 

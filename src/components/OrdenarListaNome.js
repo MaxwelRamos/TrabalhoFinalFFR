@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { ordName } from '../actions/contatoAction';
-import { Button } from '../visual/styles'
+import { Button } from '../visual/button'
 
 export const OrdenarListaNome = () => {
   const dispatch = useDispatch();
